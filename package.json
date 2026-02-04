@@ -9,7 +9,6 @@
     "clean": "rm -rf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
-    "prepare": "tsc",
     "test": "echo \"no test specified\"",
     "docgen": "docgen --api GoogleAuthPlugin --output-readme README.md"
   },
